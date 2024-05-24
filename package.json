@@ -1,0 +1,14 @@
+{
+  "name": "mom3.2.2",
+  "version": "1.0.0",
+  "description": "Detta repository är klientsidan för momentet.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

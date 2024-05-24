@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Lägg till arbetsplats</title>
+    <script src="js/add.js" type="module"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 id="header-h1">DT207G - Moment 2.2</h1>
+        <div id="header-div">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="add.html" class="active">Lägg till arbete</a></li>
+                    <li><a href="about.html">Om webbplatsen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="addWork">
+            <span id="addMsg"></span>
+            <h2>Lägg till ny arbetsplats till ditt CV</h2>
+
+            <form id="cv" method="POST">
+                <label for="companyname">Företag: </label>
+                <input type="text" id="companyname" name="companyname">
+                <br>
+                <label for="jobtitle">Jobbtitel: </label>
+                <input type="text" id="jobtitle" name="jobtitle">
+                <br>
+                <label for="startdate">Startdatum: </label>
+                <input type="text" name="startdate" id="startdate">
+                <br>
+                <label for="enddate">Slutdatum: </label>
+                <input type="text" name="enddate" id="enddate">
+                <br>
+                <input type="submit" id="addBtn" value="Lägg till arbete">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>saol1901@student.miun.se</p>
+    </footer>
+
+</body>
+</html>
