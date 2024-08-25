@@ -20,7 +20,7 @@ async function getCV(){
 
 function printCv(jobs){
     workList.innerHTML='';
-        if(jobs.lenght == 0){
+        if(jobs.length == 0){
            msg.innerHTML="Det finns inga arbeten att visa!";
         }else{
             msg.innerHTML='';
